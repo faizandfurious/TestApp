@@ -15,7 +15,7 @@ public class TabMenu extends TabActivity {
       
         tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("My Closet", res.getDrawable(R.drawable.ic_tabs_closet)).setContent(new Intent(this, Gallery.class)));
         tabHost.addTab(tabHost.newTabSpec("tab2").setIndicator("Add Clothing", res.getDrawable(R.drawable.ic_tabs_add)).setContent(new Intent(this, Camera.class)));
-        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("Match", res.getDrawable(R.drawable.ic_tabs_match)).setContent(new Intent(this, MatchClothing.class)));
+        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("Match", res.getDrawable(R.drawable.ic_tabs_match)).setContent(new Intent(this, AddTypeList.class)));
         tabHost.setCurrentTab(0); 
     }
 }

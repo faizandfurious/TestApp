@@ -24,7 +24,7 @@ public class Camera extends Activity implements View.OnClickListener {
 	final static int cameraData = 0;
 	Bitmap bmp;
 	DataManipulator dm;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -37,7 +37,7 @@ public class Camera extends Activity implements View.OnClickListener {
 		this.dm = new DataManipulator(this);
 
 	}
-	
+
 	private void initialize() {
 		iv = (ImageView) findViewById (R.id.ivReturnedPic);
 		ib = (ImageButton) findViewById (R.id.ibTakePic);
